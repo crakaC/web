@@ -8,20 +8,26 @@
           "Noto Sans JP", sans-serif;
         margin: 50px;
       }
+      .icon {
+        width: 64px;
+        height: 64px;
+        margin: 4px;
+      }
+      a {
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
     <h1>Hello, World!</h1>
-    <ul>
-      <li>
-        <a href="https://github.com/crakaC">GitHub</a>
-      </li>
-      <li>
-        <a href="https://x.com/crakaC">𝕏</a>
-      </li>
-      <li>
-        <a rel="me" href="https://fedibird.com/@crakaC">Mastodon</a>
-      </li>
-    </ul>
+    <a href="https://github.com/crakaC" alt="GitHub">
+      <img src="images/github.svg" class="icon" />
+    </a>
+    <a href="https://x.com/crakaC" alt="X">
+      <img src="images/x.png" class="icon" />
+    </a>
+    <a rel="me" href="https://fedibird.com/@crakaC" alt="Mastodon">
+      <img src="images/mastodon.svg" class="icon" />
+    </a>
   </body>
 </html>
