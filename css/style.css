@@ -1,0 +1,31 @@
+body {
+  font-family:
+    "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Helvetica Neue", Arial,
+    "Noto Sans JP", sans-serif;
+  margin: 50px;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  margin: 4px;
+  display: block;
+}
+
+.links a:first-child .icon {
+  margin-left: 0;
+}
+
+.links a:last-child .icon {
+  margin-right: 0;
+}
+
+.links {
+  font-size: 0;
+}
+
+.links a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: initial;
+}
